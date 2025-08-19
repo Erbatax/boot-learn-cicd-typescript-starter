@@ -47,8 +47,3 @@ app.use("/v1", v1Router)
 app.listen(config.api.port, () => {
   console.log(`Server is running on port: ${config.api.port}`)
 })
-
-function unusedFunction() {
-  // This function is intentionally left empty to demonstrate that it is not used.
-  // It can be removed or repurposed as needed.
-}
